@@ -2,14 +2,20 @@ html {
     font-size: 14px;
 }
 
-.footer {
+.footer-custom {
     position: absolute;
     bottom: 0;
     width: 100%;
     white-space: nowrap;
-    line-height: 30px;
+    line-height: 85px;
     font-size: 10px;
     text-align-last: center;
+}
+
+.custom-conatiner-dashboard {
+    display: inline;
+    padding-bottom: 50px;
+    color: chartreuse;
 }
 
 @media (min-width: 768px) {

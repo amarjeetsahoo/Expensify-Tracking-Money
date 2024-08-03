@@ -20,11 +20,12 @@
 </head>
 <body class="e-bigger">
 
-    @*<partial name="_SideBar" />*@
+    <partial name="_SideBar" />
 
     <div class="dock-target">
 
-        <nav class="navbar sticky-top" style=" top: 25px; ">
+        <nav class="navbar sticky-top">
+            @* style=" top: 25px; "*@
             <div class="container-fluid py-2 px-4">
                 <i class="fa-solid fa-magnifying-glass"></i>
                 <div>
@@ -37,7 +38,7 @@
 
 
         <div class="main-content">
-            <div class="container mt-5">
+            <div class="container mt-5 custom-conatiner-dashboard">
                 <div class="row justify-content-center">
                     <div class="@(ViewData["isDashboard"] == null?"col-md-10":"col-md-12")">
                         <main role="main" class="pb-3">
@@ -68,7 +69,7 @@
                             @RenderBody()
                         </main>
                     </div>
-                    <footer class="border-top footer text-muted">
+                    <footer class="border-top footer-custom text-muted">
                         <div class="container">
                             &copy; 2024 - Expensify - Crafted with ❤ by AHS - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </div>
