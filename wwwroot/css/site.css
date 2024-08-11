@@ -3,12 +3,12 @@ html {
 }
 
 .footer-custom {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
     white-space: nowrap;
-    line-height: 85px;
-    font-size: 10px;
+    line-height: 70px;
+    font-size: 15px;
     text-align-last: center;
 }
 

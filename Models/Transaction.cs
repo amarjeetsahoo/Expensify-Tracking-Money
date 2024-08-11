@@ -34,7 +34,8 @@ namespace Expensify.Models
         {
             get
             {
-                return ((Category == null || Category.Type == "Expense") ? "- " : "+ ") + Amount.ToString("C0");
+                var cultureInfo = new System.Globalization.CultureInfo("hi-IN");
+                return ((Category == null || Category.Type == "Expense") ? "- " : "+ ") + Amount.ToString("C0", cultureInfo);
             }
         }
     }
