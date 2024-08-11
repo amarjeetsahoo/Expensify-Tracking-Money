@@ -21,7 +21,9 @@ namespace Expensify.Controllers
         // GET: Transaction
         public async Task<IActionResult> Index()
         {
-            var applicationDbContext = _context.Transaction.Include(t => t.Category);
+            var applicationDbContext = _context.Transaction
+            .Include(t => t.Category)
+            .OrderByDescending(t => t.Date);
             return View(await applicationDbContext.ToListAsync());
         }
 
