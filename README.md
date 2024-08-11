@@ -2,6 +2,10 @@
 
 Expensify is a web application that helps you keep track of all your expenses and income efficiently. With Expensify, you can manage categories, add transactions, and view your financial summary through an intuitive dashboard.
 
+## Screenshots
+![Dashboard Screenshot](https://github.com/amarjeetsahoo/Expensify-Tracking-Money/blob/master/1.png?raw=true)
+![Dashboard Screenshot](https://github.com/amarjeetsahoo/Expensify-Tracking-Money/blob/master/2.png?raw=true)
+
 ## Features
 
 - **Category Management**:
@@ -17,10 +21,6 @@ Expensify is a web application that helps you keep track of all your expenses an
   - Review your last 5 transactions at a glance.
   - Visualize your finances with a category-based doughnut chart.
   - Track your current month's income vs. expenses with a spine chart.
-
-## Screenshots
-![Dashboard Screenshot](https://github.com/amarjeetsahoo/Expensify-Tracking-Money/blob/master/1.png?raw=true)
-![Dashboard Screenshot](https://github.com/amarjeetsahoo/Expensify-Tracking-Money/blob/master/2.png?raw=true)
 
 ## Usage
 
